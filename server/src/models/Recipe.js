@@ -12,7 +12,7 @@ const RecipeSchema = new mongoose.Schema({
   userOwner: {
     type: mongoose.Schema.Types.ObjectId,
     ref: "users",
-    required: true,
+    // required: true,
   },
 });
 
